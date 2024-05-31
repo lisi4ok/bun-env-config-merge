@@ -1,6 +1,6 @@
 {
-  "name": "@bun/env-config-merge",
-  "private": true,
+  "name": "@lisi4ok/bun-env-config-merge",
+  "private": false,
   "version": "0.0.0",
   "description": "Merge Enviroment variables from Node, BUn and all JS Runtimes",
   "keywords": [
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/lisi4ok/bun-env-config-merge.git"
   },
   "scripts": {
     "dev": "vite",
