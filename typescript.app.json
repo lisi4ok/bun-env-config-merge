@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "declarationDir": "./src/types",
+
+    "paths": {
+      "~": ["./node_modules"],
+      "@/*": ["./src/core/*"],
+      "@types/*": ["./src/types/*"],
+      "@env/*": ["./src/env/*"],
+      "@cfg/*": ["./src/cfg/*"],
+      "@assets/*": ["./src/assets/*"],
+      "@tests/*": ["./src/tests/*"],
+      "@dist/*": ["./src/dist/*"]
+    },
+
+    "baseUrl": ".",
+
+    "types": [
+      "bun-types"
+    ]
+
+  },
+  "files": [
+    "@types/*-shim.d.ts"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "@bun/env-config-merge",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Merge Enviroment variables from Node, BUn and all JS Runtimes",
+  "keywords": [
+    "bun",
+    "bun.js",
+    "env",
+    "config",
+    "merge"
+  ],
+  "homepage": "https://lisi4ok.com/",
+  "license": "MIT",
+  "author": {
+    "email": "master@lisi4ok.com",
+    "name": "Zaio Klepoyshkov",
+    "url": "https://lisi4ok.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.1.3",
+    "typescript": "^5.2.2",
+    "vue": "^3.4.21",
+    "vue-tsc": "^2.0.6",
+    "vite": "^5.2.0",
+    "@vitejs/plugin-vue": "^5.0.4"
+  },
+  "dependencies": {}
+}
